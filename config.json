@@ -1,0 +1,30 @@
+{
+  "inbounds": [
+    {
+      "port": ??,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "??",
+            "level": 0,
+            "email": "??"
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+        "path": "??"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
